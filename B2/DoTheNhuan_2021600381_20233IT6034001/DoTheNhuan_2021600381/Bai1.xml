@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<QLSV xmlns="http://tempuri.org/Bai1.xsd">
+	<SinhVien masv="N123456789">
+		<HoTen>Do The Nhuan</HoTen>
+		<NgaySinh>1996-05-07</NgaySinh>
+		<GioiTinh>Nam</GioiTinh>
+		<Que>Ha Noi</Que>
+		<TrinhDo>Đại học</TrinhDo>
+		<HeSoDiem>4.8</HeSoDiem>
+	</SinhVien>
+	<SinhVien masv="N123456789">
+		<HoTen>Do The Nhuan</HoTen>
+		<NgaySinh>1996-05-07</NgaySinh>
+		<GioiTinh>Nam</GioiTinh>
+		<Que>Ha Noi</Que>
+		<TrinhDo>Đại học</TrinhDo>
+		<HeSoDiem>4.8</HeSoDiem>
+	</SinhVien>
+</QLSV>

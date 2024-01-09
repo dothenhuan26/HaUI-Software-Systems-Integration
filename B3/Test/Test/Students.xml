@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="student.xslt" ?>
+<class>
+	<student rollno="393">
+		<firstname>Dinkar</firstname>
+		<lastname>Kad</lastname>
+		<nickname>Dinkar</nickname>
+		<mark>85</mark>
+	</student>
+	<student rollno="493">
+		<firstname>Vatneet</firstname>
+		<lastname>Gupta</lastname>
+		<nickname>Vinni</nickname>
+		<mark>95</mark>
+	</student>
+	<student rollno="593">
+		<firstname>Jasvir</firstname>
+		<lastname>singh</lastname>
+		<nickname>Jazz</nickname>
+		<mark>90</mark>
+	</student>
+</class>

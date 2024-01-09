@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DATN>
+	<Lop MaLop="HTTT2-K10">
+		<SV GVHD="Trần Thanh Hùng" Khoa="10" TrungTam="CNTT">
+			<DeTai So="121">
+				<NgayGiao>2-9-2017</NgayGiao>
+				<NgayHoanThanh>3-9-2017</NgayHoanThanh>
+			</DeTai>
+			<HoTen>Nguyễn Văn Bắc</HoTen>
+			<NoiDung>
+				<BanVe Ten="A">
+					<KhoGiay SoLuong="5">A3</KhoGiay>
+				</BanVe>
+				<BanVe Ten="B">
+					<KhoGiay SoLuong="5">A4</KhoGiay>
+				</BanVe>
+				<BanVe Ten="C">
+					<KhoGiay SoLuong="1">A1</KhoGiay>
+				</BanVe>
+				<BanVe Ten="D">
+					<KhoGiay SoLuong="1">A10</KhoGiay>
+				</BanVe>
+			</NoiDung>
+		</SV>
+
+	</Lop>
+</DATN>

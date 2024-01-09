@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<DS xmlns="http://tempuri.org/Bai2.xsd">
+	<HoaDon>
+		<MaHD>N123456789</MaHD>
+		<NgayBan>2024-01-02</NgayBan>
+		<LoaiHang MaLoai="A" TenLoai="Hang2">
+			<Hang MaHang="H1">
+				<TenHang>TIvi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>Gói</DonViTinh>
+				<DonGia>200000</DonGia>
+			</Hang>
+			
+		</LoaiHang>
+	</HoaDon>
+	<HoaDon>
+		<MaHD>N123456789</MaHD>
+		<NgayBan>2024-01-02</NgayBan>
+		<LoaiHang MaLoai="A" TenLoai="Hang2">
+			<Hang MaHang="H1">
+				<TenHang>TIvi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>Gói</DonViTinh>
+				<DonGia>200000</DonGia>
+			</Hang>
+
+		</LoaiHang>
+	</HoaDon>
+	<HoaDon>
+		<MaHD>N123456789</MaHD>
+		<NgayBan>2024-01-02</NgayBan>
+		<LoaiHang MaLoai="A" TenLoai="Hang2">
+			<Hang MaHang="H1">
+				<TenHang>TIvi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>Gói</DonViTinh>
+				<DonGia>200000</DonGia>
+			</Hang>
+
+		</LoaiHang>
+	</HoaDon>
+	<HoaDon>
+		<MaHD>N123456789</MaHD>
+		<NgayBan>2024-01-02</NgayBan>
+		<LoaiHang MaLoai="A" TenLoai="Hang2">
+			<Hang MaHang="H1">
+				<TenHang>TIvi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>Gói</DonViTinh>
+				<DonGia>200000</DonGia>
+			</Hang>
+
+		</LoaiHang>
+	</HoaDon>
+	
+</DS>

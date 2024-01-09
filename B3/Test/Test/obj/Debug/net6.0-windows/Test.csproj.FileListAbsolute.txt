@@ -1,0 +1,16 @@
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\bin\Debug\net6.0-windows\Test.exe
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\bin\Debug\net6.0-windows\Test.deps.json
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\bin\Debug\net6.0-windows\Test.runtimeconfig.json
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\bin\Debug\net6.0-windows\Test.dll
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\bin\Debug\net6.0-windows\Test.pdb
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.Form1.resources
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.csproj.GenerateResource.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.AssemblyInfoInputs.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.AssemblyInfo.cs
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.csproj.CoreCompileInputs.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.dll
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\refint\Test.dll
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.pdb
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\Test.genruntimeconfig.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B3\Test\Test\obj\Debug\net6.0-windows\ref\Test.dll

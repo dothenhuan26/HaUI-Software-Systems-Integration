@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KQHT>
+	<NamHoc Nam="2009">
+		<LopHoc MaLopHoc="KTPM5-K9" GVCN="Linh">
+			<SV>
+				<Info>
+					<HoTen>Nguyễn Việt Đức</HoTen>
+					<NgaySinh>5/3/1997</NgaySinh>
+				</Info>
+				<MonHoc>
+					<Mon STT="1" TenMon="Toán">
+						<Diem>
+							<Lan1>5</Lan1>
+							<Lan2>6</Lan2>
+							<CaNam>8</CaNam>
+						</Diem>
+					</Mon>
+					<Mon STT="2" TenMon="Văn">
+						<Diem>
+							<Lan1>7</Lan1>
+							<Lan2>8</Lan2>
+							<CaNam>4</CaNam>
+						</Diem>
+					</Mon>
+				</MonHoc>
+				<XepLoai>
+					<HocLuc>Trung bình</HocLuc>
+					<HanhKiem>Khá</HanhKiem>
+				</XepLoai>
+			</SV>
+		</LopHoc>
+	</NamHoc>
+</KQHT>
