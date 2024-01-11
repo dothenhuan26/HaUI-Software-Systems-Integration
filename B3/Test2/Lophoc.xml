@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="lophoc.xslt"?>
+<lophoc>
+	<sinhvien>
+		<hoten>Khanh</hoten>
+		<diem>7</diem>
+		<diachi>Ha Noi</diachi>
+	</sinhvien>
+	<sinhvien>
+		<hoten>Tuan</hoten>
+		<diem>6</diem>
+		<diachi>Ha Noi</diachi>
+	</sinhvien>
+	<sinhvien>
+		<hoten>Phuong</hoten>
+		<diem>3</diem>
+		<diachi>Ha Noi</diachi>
+	</sinhvien>
+</lophoc>
