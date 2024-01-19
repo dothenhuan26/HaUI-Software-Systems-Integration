@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BENHVIENDAKHOA"
+    targetNamespace="http://tempuri.org/BENHVIENDAKHOA.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/BENHVIENDAKHOA.xsd"
+    xmlns:mstns="http://tempuri.org/BENHVIENDAKHOA.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+
+	<xs:simpleType name="idType">
+		<xs:restriction base="xs:ID">
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="nameType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"></xs:minLength>
+			<xs:maxLength value="50"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="addressType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"></xs:minLength>
+			<xs:maxLength value="50"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="phoneType">
+		<xs:restriction base="xs:string">
+			<xs:length value="10"></xs:length>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="joinedDateType">
+		<xs:restriction base="xs:date">
+			<xs:minExclusive value="2000-01-01"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="numberDayType">
+		<xs:restriction base="xs:integer">
+			<xs:minExclusive value="0"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="benhNhan">
+		<xs:sequence>
+			<xs:element type="nameType" name="HoTen"></xs:element>
+			<xs:element type="addressType" name="DiaChi"></xs:element>
+			<xs:element type="phoneType" name="SoDienThoai"></xs:element>
+			<xs:element type="joinedDateType" name="NgayNhapVien"></xs:element>
+			<xs:element type="numberDayType" name="SoNgayNamVien"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaHoSo" type="idType"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="phong">
+		<xs:sequence>
+			<xs:element type="benhNhan" name="BenhNhan" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaPhong" type="idType"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="phongDieuTri">
+		<xs:sequence>
+			<xs:element type="phong" name="Phong" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="khoa">
+		<xs:sequence>
+			<xs:element type="nameType" name="TenKhoa"></xs:element>
+			<xs:element type="nameType" name="HoTenTruongKhoa"></xs:element>
+			<xs:element type="phongDieuTri" name="PhongDieuTri" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="bvdk">
+		<xs:sequence>
+			<xs:element type="khoa" name="Khoa" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="BVDK" type="bvdk"></xs:element>
+
+</xs:schema>

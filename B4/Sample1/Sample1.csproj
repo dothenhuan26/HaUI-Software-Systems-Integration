@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C910C490-DC47-4E42-B0E7-053844644B23}</ProjectGuid>
+    <ProjectGuid>{A56A2675-34D3-4EB0-A1A0-D0317DC77FD7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DoTheNhuan_2021600381</RootNamespace>
-    <AssemblyName>DoTheNhuan_2021600381</AssemblyName>
+    <RootNamespace>Sample1</RootNamespace>
+    <AssemblyName>Sample1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -63,7 +63,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="BENHVIENDAKHOA.xsd">
+    <None Include="Class.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
@@ -80,8 +80,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BenhVienDaKhoa.xml" />
-    <Content Include="bvdk.xslt" />
+    <Content Include="Class.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

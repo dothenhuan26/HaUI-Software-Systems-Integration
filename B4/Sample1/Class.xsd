@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Class"
+    targetNamespace="http://tempuri.org/Class.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Class.xsd"
+    xmlns:mstns="http://tempuri.org/Class.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:complexType name="person">
+		<xs:sequence>
+			<xs:element name="sid">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[S]\d{3}"></xs:pattern>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="name">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Za-z]+"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="dob" type="xs:date"></xs:element>
+			<xs:element name="mark">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="1"></xs:minInclusive>
+						<xs:maxInclusive value="10"></xs:maxInclusive>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="class">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="student" minOccurs="1" type="person" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

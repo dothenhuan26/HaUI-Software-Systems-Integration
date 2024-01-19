@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="bvdk.xslt"?>
+<BVDK>
+	<Khoa>
+		<TenKhoa>Ngoai</TenKhoa>
+		<HoTenTruongKhoa>Do The Nhuan</HoTenTruongKhoa>
+		<PhongDieuTri>
+			<Phong>
+				<BenhNhan MaHoSo="hs1">
+					<HoTen>Hu Hu</HoTen>
+					<DiaChi>Ha Noi</DiaChi>
+					<SoDienThoai>0123456789</SoDienThoai>
+					<NgayNhapVien>2022-01-17</NgayNhapVien>
+					<SoNgayNamVien>15</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="hs2">
+					<HoTen>Hi hi</HoTen>
+					<DiaChi>Ha Nam</DiaChi>
+					<SoDienThoai>0123456789</SoDienThoai>
+					<NgayNhapVien>2022-05-17</NgayNhapVien>
+					<SoNgayNamVien>162</SoNgayNamVien>
+				</BenhNhan>
+			</Phong>
+			<Phong>
+				<BenhNhan MaHoSo="hs3">
+					<HoTen>Ho Huo</HoTen>
+					<DiaChi>Hai Noif</DiaChi>
+					<SoDienThoai>0123456789</SoDienThoai>
+					<NgayNhapVien>2022-01-17</NgayNhapVien>
+					<SoNgayNamVien>36</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="hs4">
+					<HoTen>Hiw hiw</HoTen>
+					<DiaChi>Haq Nam</DiaChi>
+					<SoDienThoai>0123456789</SoDienThoai>
+					<NgayNhapVien>2022-05-17</NgayNhapVien>
+					<SoNgayNamVien>18</SoNgayNamVien>
+				</BenhNhan>
+			</Phong>
+		</PhongDieuTri>
+	</Khoa>
+	<Khoa>
+		<TenKhoa>Ngoai</TenKhoa>
+		<HoTenTruongKhoa>Do The Nhuan</HoTenTruongKhoa>
+		<PhongDieuTri>
+			<Phong>
+				<BenhNhan MaHoSo="hs5">
+					<HoTen>Hu Hu</HoTen>
+					<DiaChi>Ha Noi</DiaChi>
+					<SoDienThoai>0123456789</SoDienThoai>
+					<NgayNhapVien>2022-01-17</NgayNhapVien>
+					<SoNgayNamVien>51</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="hs6">
+					<HoTen>Hi hi</HoTen>
+					<DiaChi>Ha Nam</DiaChi>
+					<SoDienThoai>0123456789</SoDienThoai>
+					<NgayNhapVien>2022-05-17</NgayNhapVien>
+					<SoNgayNamVien>16</SoNgayNamVien>
+				</BenhNhan>
+			</Phong>
+			<Phong>
+				<BenhNhan MaHoSo="hs7">
+					<HoTen>Ho Huo</HoTen>
+					<DiaChi>Hai Noif</DiaChi>
+					<SoDienThoai>0123456789</SoDienThoai>
+					<NgayNhapVien>2022-01-17</NgayNhapVien>
+					<SoNgayNamVien>6</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="hs8">
+					<HoTen>Hiw hiw</HoTen>
+					<DiaChi>Haq Nam</DiaChi>
+					<SoDienThoai>0123456789</SoDienThoai>
+					<NgayNhapVien>2022-05-17</NgayNhapVien>
+					<SoNgayNamVien>18</SoNgayNamVien>
+				</BenhNhan>
+			</Phong>
+		</PhongDieuTri>
+	</Khoa>
+</BVDK>
+
