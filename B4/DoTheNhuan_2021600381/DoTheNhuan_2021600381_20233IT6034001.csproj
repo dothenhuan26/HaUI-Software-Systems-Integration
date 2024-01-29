@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E76A8FC9-9CFE-4405-816E-85CDF70F03B1}</ProjectGuid>
+    <ProjectGuid>{C4B20F7B-5033-4F3B-8B72-6579018B93F9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>DoTheNhuan_2021600381_20233IT6034001</RootNamespace>
     <AssemblyName>DoTheNhuan_2021600381_20233IT6034001</AssemblyName>
@@ -63,7 +63,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="KQHT.xsd">
+    <None Include="hoadonhang.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
@@ -78,6 +78,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HoaDonHang.xml" />
+    <Content Include="HoaDonHang.xslt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
