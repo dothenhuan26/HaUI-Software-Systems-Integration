@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="KetQua.xslt" ?>
+<DSKQ xmlns="http://tempuri.org/KetQua.xsd">
+	<SinhVien MaSv="SV01">
+		<MonHoc>
+			<MaMh>THDC</MaMh>
+			<DiemThi>8</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THVP</MaMh>
+			<DiemThi>8.4</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THVP</MaMh>
+			<DiemThi>3.8</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THDC</MaMh>
+			<DiemThi>9.5</DiemThi>
+		</MonHoc>
+	</SinhVien>
+	<SinhVien MaSv="SV02">
+		<MonHoc>
+			<MaMh>THDC</MaMh>
+			<DiemThi>8.5</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THVP</MaMh>
+			<DiemThi>2.5</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THVP</MaMh>
+			<DiemThi>5.5</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THDC</MaMh>
+			<DiemThi>9.5</DiemThi>
+		</MonHoc>
+	</SinhVien>
+	<SinhVien MaSv="SV03">
+		<MonHoc>
+			<MaMh>THDC</MaMh>
+			<DiemThi>8.5</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THVP</MaMh>
+			<DiemThi>2.5</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THVP</MaMh>
+			<DiemThi>5.5</DiemThi>
+		</MonHoc>
+		<MonHoc>
+			<MaMh>THDC</MaMh>
+			<DiemThi>9.5</DiemThi>
+		</MonHoc>
+	</SinhVien>
+</DSKQ>

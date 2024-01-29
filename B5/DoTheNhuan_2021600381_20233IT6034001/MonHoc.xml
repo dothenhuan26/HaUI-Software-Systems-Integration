@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="MonHoc.xslt" ?>
+<DSMH xmlns="http://tempuri.org/MonHoc.xsd">
+	<MonHoc MaMh="MH01">
+		<TenMh>Co so du lieu</TenMh>
+		<SoGio>30</SoGio>
+	</MonHoc>
+	<MonHoc MaMh="MH02">
+		<TenMh>Mang may tinh</TenMh>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	<MonHoc MaMh="MH03">
+		<TenMh>Co so du lieu</TenMh>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	<MonHoc MaMh="MH04">
+		<TenMh>Co so du lieu</TenMh>
+		<SoGio>30</SoGio>
+	</MonHoc>
+	<MonHoc MaMh="MH05">
+		<TenMh>Xu ly anh</TenMh>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	<MonHoc MaMh="MH06">
+		<TenMh>Co so du lieu</TenMh>
+		<SoGio>30</SoGio>
+	</MonHoc>
+	<MonHoc MaMh="MH07">
+		<TenMh>Tin hoc dai cuong</TenMh>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	<MonHoc MaMh="MH08">
+		<TenMh>Co so du lieu</TenMh>
+		<SoGio>30</SoGio>
+	</MonHoc>
+</DSMH>
