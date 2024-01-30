@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="nhanvien"
+    targetNamespace="http://tempuri.org/nhanvien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/nhanvien.xsd"
+    xmlns:mstns="http://tempuri.org/nhanvien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="maType">
+		<xs:restriction base="xs:ID">
+			<xs:maxLength value="6"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ngaycongType">
+		<xs:restriction base="xs:unsignedInt">
+			<xs:minExclusive value="1"></xs:minExclusive>
+			<xs:maxExclusive value="31"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="gioitinhType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Nam"></xs:enumeration>
+			<xs:enumeration value="Nữ"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="dienthoaiType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{10}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="nvType">
+		<xs:sequence>
+			<xs:element name="manv" type="maType"></xs:element>
+			<xs:element name="hoten" type="xs:string"></xs:element>
+			<xs:element name="ngaysinh" type="xs:date"></xs:element>
+			<xs:element name="gioitinh" type="gioitinhType"></xs:element>
+			<xs:element name="ngaycong" type="ngaycongType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="dvType">
+		<xs:sequence>
+			<xs:element name="madv" type="maType"></xs:element>
+			<xs:element name="tendv" type="xs:string"></xs:element>
+			<xs:element name="dienthoai" type="dienthoaiType"></xs:element>
+
+			<xs:element name="nhanvien" type="nvType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ctType">
+		<xs:sequence>
+			<xs:element name="donvi" type="dvType" minOccurs="0" maxOccurs="10"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="TenCT" type="xs:string"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="dsType">
+		<xs:sequence>
+			<xs:element name="congty" type="ctType" minOccurs="0" maxOccurs="4"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="DS" type="dsType"></xs:element>
+
+
+</xs:schema>
+

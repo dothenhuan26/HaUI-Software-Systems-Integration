@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="congty"
+    targetNamespace="http://tempuri.org/congty.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/congty.xsd"
+    xmlns:mstns="http://tempuri.org/congty.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="manvType">
+		<xs:restriction base="xs:ID">
+			<xs:length value="4"></xs:length>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="gioitinhType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Nam"></xs:enumeration>
+			<xs:enumeration value="Nữ"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="hsluongType">
+		<xs:restriction base="xs:decimal">
+			<xs:fractionDigits value="2"></xs:fractionDigits>
+			<xs:minExclusive value="2.34"></xs:minExclusive>
+			<xs:maxExclusive value="8.8"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="dtType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{10}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="nvType">
+		<xs:sequence>
+			<xs:element name="manv" type="manvType"></xs:element>
+			<xs:element name="hoten" type ="xs:string"></xs:element>
+			<xs:element name="ngaysinh" type="xs:date"></xs:element>
+			<xs:element name="gioitinh" type="gioitinhType"></xs:element>
+			<xs:element name="hsluong" type="hsluongType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="dvType">
+		<xs:sequence>
+			<xs:element name="tendv" type="xs:string"></xs:element>
+			<xs:element name="dienthoai" type="dtType"></xs:element>
+			<xs:element name="nhanvien" type="nvType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="madv" type="xs:ID"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="ctType">
+		<xs:sequence>
+			<xs:element name ="donvi" type="dvType" minOccurs="0" maxOccurs="10"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="congty" type="ctType"></xs:element>
+
+</xs:schema>
