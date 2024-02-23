@@ -1,0 +1,7 @@
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML_Console\bin\Debug\ReadFileXML_Console.exe.config
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML_Console\bin\Debug\ReadFileXML_Console.exe
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML_Console\bin\Debug\ReadFileXML_Console.pdb
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML_Console\obj\Debug\ReadFileXML_Console.csproj.AssemblyReference.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML_Console\obj\Debug\ReadFileXML_Console.csproj.CoreCompileInputs.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML_Console\obj\Debug\ReadFileXML_Console.exe
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML_Console\obj\Debug\ReadFileXML_Console.pdb

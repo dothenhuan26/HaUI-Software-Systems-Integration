@@ -1,0 +1,10 @@
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\bin\Debug\Curd_Xml.exe.config
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\bin\Debug\Curd_Xml.exe
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\bin\Debug\Curd_Xml.pdb
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\obj\Debug\Curd_Xml.csproj.AssemblyReference.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\obj\Debug\Curd_Xml.Form1.resources
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\obj\Debug\Curd_Xml.Properties.Resources.resources
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\obj\Debug\Curd_Xml.csproj.GenerateResource.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\obj\Debug\Curd_Xml.csproj.CoreCompileInputs.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\obj\Debug\Curd_Xml.exe
+D:\Personal\Documents\University\Soft_Sys_Integration\B7\Curd_Xml\obj\Debug\Curd_Xml.pdb

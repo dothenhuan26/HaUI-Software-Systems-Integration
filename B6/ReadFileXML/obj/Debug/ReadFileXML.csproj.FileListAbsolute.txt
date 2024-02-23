@@ -1,0 +1,4 @@
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML\obj\Debug\ReadFileXML.csproj.AssemblyReference.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML\obj\Debug\ReadFileXML.Properties.Resources.resources
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML\obj\Debug\ReadFileXML.csproj.GenerateResource.cache
+D:\Personal\Documents\University\Soft_Sys_Integration\B6\ReadFileXML\obj\Debug\ReadFileXML.csproj.CoreCompileInputs.cache

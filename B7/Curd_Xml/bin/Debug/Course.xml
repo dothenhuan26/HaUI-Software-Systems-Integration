@@ -1,0 +1,27 @@
+<course>
+  <student id="1">
+    <name>duong thuy beo vai o</name>
+    <age>90</age>
+    <city>MyDuc</city>
+  </student>
+  <student id="s02">
+    <name>nhun nhun</name>
+    <age>18</age>
+    <city>ha nuii</city>
+  </student>
+  <student id="s05">
+    <name>nhun bunn</name>
+    <age>88</age>
+    <city>Ha Noi</city>
+  </student>
+  <student id="s111">
+    <name>1234</name>
+    <age>112</age>
+    <city>a11234</city>
+  </student>
+  <student id="s06">
+    <name>nhun bunn12</name>
+    <age>8833</age>
+    <city>Ha Noi</city>
+  </student>
+</course>
