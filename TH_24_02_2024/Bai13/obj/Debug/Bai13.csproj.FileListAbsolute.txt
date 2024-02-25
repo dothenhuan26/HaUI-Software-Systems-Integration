@@ -1,0 +1,15 @@
+D:\HaUI\HocPhan\THHTPM\Bai13\bin\Debug\TestAPI.exe.config
+D:\HaUI\HocPhan\THHTPM\Bai13\bin\Debug\TestAPI.exe
+D:\HaUI\HocPhan\THHTPM\Bai13\bin\Debug\TestAPI.pdb
+D:\HaUI\HocPhan\THHTPM\Bai13\bin\Debug\Newtonsoft.Json.dll
+D:\HaUI\HocPhan\THHTPM\Bai13\bin\Debug\System.Net.Http.Formatting.xml
+D:\HaUI\HocPhan\THHTPM\Bai13\bin\Debug\System.Web.Http.xml
+D:\HaUI\HocPhan\THHTPM\Bai13\bin\Debug\System.Web.Http.WebHost.xml
+D:\HaUI\HocPhan\THHTPM\Bai13\obj\Debug\Bai13.csproj.AssemblyReference.cache
+D:\HaUI\HocPhan\THHTPM\Bai13\obj\Debug\Bai13.ThongTinNhanVien.resources
+D:\HaUI\HocPhan\THHTPM\Bai13\obj\Debug\TestAPI.Properties.Resources.resources
+D:\HaUI\HocPhan\THHTPM\Bai13\obj\Debug\Bai13.csproj.GenerateResource.cache
+D:\HaUI\HocPhan\THHTPM\Bai13\obj\Debug\Bai13.csproj.CoreCompileInputs.cache
+D:\HaUI\HocPhan\THHTPM\Bai13\obj\Debug\Bai13.csproj.CopyComplete
+D:\HaUI\HocPhan\THHTPM\Bai13\obj\Debug\TestAPI.exe
+D:\HaUI\HocPhan\THHTPM\Bai13\obj\Debug\TestAPI.pdb
