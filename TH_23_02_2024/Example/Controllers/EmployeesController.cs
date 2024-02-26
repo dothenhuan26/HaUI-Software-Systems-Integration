@@ -18,7 +18,6 @@ namespace Example.Controllers
             return db.Employees.ToList();
         }
 
-
         [HttpPost]
         public IHttpActionResult Create([FromBody] Employee employee)
         {
@@ -37,6 +36,19 @@ namespace Example.Controllers
                 emp.FullName = employee.FullName;
                 emp.BirthDate = employee.BirthDate;
                 emp.Gender = employee.Gender;
+                db.SaveChanges();
+                return Ok();
+            }
+            return NotFound();
+        }
+
+        [HttpDelete]
+        public IHttpActionResult Delete(int id)
+        {
+            Employee emp = db.Employees.Find(id);
+            if (emp != null)
+            {
+                db.Employees.Remove(emp);
                 db.SaveChanges();
                 return Ok();
             }

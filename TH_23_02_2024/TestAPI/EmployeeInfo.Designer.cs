@@ -41,6 +41,7 @@ namespace TestAPI
             this.btnAdd = new System.Windows.Forms.Button();
             this.renderData = new System.Windows.Forms.DataGridView();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.renderData)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,7 +148,7 @@ namespace TestAPI
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(430, 103);
+            this.btnUpdate.Location = new System.Drawing.Point(430, 106);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(107, 44);
             this.btnUpdate.TabIndex = 11;
@@ -155,11 +156,22 @@ namespace TestAPI
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(430, 168);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(107, 44);
+            this.btnDelete.TabIndex = 12;
+            this.btnDelete.Text = "Xóa";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // EmployeeInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(914, 603);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.renderData);
             this.Controls.Add(this.btnAdd);
@@ -195,6 +207,7 @@ namespace TestAPI
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.DataGridView renderData;
         private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
     }
 }
 
