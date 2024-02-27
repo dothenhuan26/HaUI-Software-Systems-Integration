@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2021600381_DoTheNhuan", "2021600381_DoTheNhuan\2021600381_DoTheNhuan.csproj", "{73DDFE1D-10BA-4E31-A3FA-917A3BC07957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2021600381_DoTheNhuan_call", "2021600381_DoTheNhuan_call\2021600381_DoTheNhuan_call.csproj", "{0A7AB514-BFAD-43F1-9F7C-E358AA874A18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73DDFE1D-10BA-4E31-A3FA-917A3BC07957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DDFE1D-10BA-4E31-A3FA-917A3BC07957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DDFE1D-10BA-4E31-A3FA-917A3BC07957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DDFE1D-10BA-4E31-A3FA-917A3BC07957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7AB514-BFAD-43F1-9F7C-E358AA874A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7AB514-BFAD-43F1-9F7C-E358AA874A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7AB514-BFAD-43F1-9F7C-E358AA874A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7AB514-BFAD-43F1-9F7C-E358AA874A18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9B93996-4F9E-4C6D-A2F2-D0CCB8509D93}
+	EndGlobalSection
+EndGlobal
