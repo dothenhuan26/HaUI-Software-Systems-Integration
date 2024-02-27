@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2021600381_DoTheNhuan", "2021600381_DoTheNhuan\2021600381_DoTheNhuan.csproj", "{7E1DCD8B-0C9F-429E-8309-7D4086C19D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2021600381_DoTheNhuan_Call", "2021600381_DoTheNhuan_Call\2021600381_DoTheNhuan_Call.csproj", "{0B58405F-4445-4C0E-9FB6-850869C7F78A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E1DCD8B-0C9F-429E-8309-7D4086C19D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1DCD8B-0C9F-429E-8309-7D4086C19D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1DCD8B-0C9F-429E-8309-7D4086C19D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1DCD8B-0C9F-429E-8309-7D4086C19D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B58405F-4445-4C0E-9FB6-850869C7F78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B58405F-4445-4C0E-9FB6-850869C7F78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B58405F-4445-4C0E-9FB6-850869C7F78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B58405F-4445-4C0E-9FB6-850869C7F78A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57BF21DC-2EFF-4399-B3C5-E5B755951A05}
+	EndGlobalSection
+EndGlobal

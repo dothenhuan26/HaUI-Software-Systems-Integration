@@ -47,10 +47,27 @@ namespace TestAPI
             return response.IsSuccessStatusCode;
         }
 
+        private bool Delete(int id)
+        {
+            var response = client.DeleteAsync($"employees?id={id}").Result;
+            return response.IsSuccessStatusCode;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             employees = GetEmployees();
             renderData.DataSource = GetEmployees();
+        }
+
+        private void renderData_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var row = renderData.CurrentRow;
+            ID_TMP = Convert.ToInt32(row.Cells["ID"].Value);
+            txtCode.Text = row.Cells["Code"].Value.ToString();
+            txtBirthDate.Value = Convert.ToDateTime(row.Cells["BirthDate"].Value);
+            txtFullName.Text = row.Cells["FullName"].Value.ToString();
+            if (Convert.ToBoolean(row.Cells["Gender"].Value)) radMale.Checked = true;
+            else radFemale.Checked = true;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -70,17 +87,6 @@ namespace TestAPI
             else MessageBox.Show("Khong them duoc nhan vien!");
         }
 
-        private void renderData_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            var row = renderData.CurrentRow;
-            ID_TMP = Convert.ToInt32(row.Cells["ID"].Value);
-            txtCode.Text = row.Cells["Code"].Value.ToString();
-            txtBirthDate.Value = Convert.ToDateTime(row.Cells["BirthDate"].Value);
-            txtFullName.Text = row.Cells["FullName"].Value.ToString();
-            if (Convert.ToBoolean(row.Cells["Gender"].Value)) radMale.Checked = true;
-            else radFemale.Checked = true;
-        }
-
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             Employee employee = employees.FirstOrDefault(x => x.ID == ID_TMP);
@@ -94,36 +100,22 @@ namespace TestAPI
                     employees = GetEmployees();
                     renderData.DataSource = employees;
                 }
-                else
-                {
-                    MessageBox.Show("Khong sua duoc nhan vien!");
-                }
+                else MessageBox.Show("Khong sua duoc nhan vien!");
             }
-            else
-            {
-                MessageBox.Show("Khong tim thay nhan vien!");
-            }
-        }
-
-        private bool Delete(int id)
-        {
-            var response = client.DeleteAsync($"employees?id={id}").Result;
-            return response.IsSuccessStatusCode;
+            else MessageBox.Show("Khong tim thay nhan vien!");
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc chắn xóa nhân viên này!", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            if (MessageBox.Show("Bạn có chắc chắn xóa nhân viên này!", "Thông báo", 
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 if (Delete(ID_TMP))
                 {
                     employees = GetEmployees();
                     renderData.DataSource = employees;
                 }
-                else
-                {
-                    MessageBox.Show("Không xóa được nhân viên!");
-                }
+                else MessageBox.Show("Không xóa được nhân viên!");
             }
         }
     }

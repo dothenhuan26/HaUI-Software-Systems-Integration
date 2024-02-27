@@ -98,6 +98,7 @@ namespace TestAPI
             // txtBirthDate
             // 
             this.txtBirthDate.CustomFormat = "dd/MM/yyyy";
+            this.txtBirthDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.txtBirthDate.Location = new System.Drawing.Point(203, 110);
             this.txtBirthDate.Name = "txtBirthDate";
             this.txtBirthDate.Size = new System.Drawing.Size(165, 22);
